@@ -56,8 +56,11 @@
               
         </div>
           <div class="header__img">
-          <img src="img/photo.jpg" alt="Photo of Goryainova Tatyana" >
-          </div>
+            <figure>
+              <img src="img/photo.jpg" alt="Photo of Goryainova Tatyana" >
+                 <figcaption>My photo</figcaption>
+          </figure>
+         </div>
       </div>
     </div>
   </header>
@@ -68,7 +71,7 @@
       <div class="sections">
       <section class="section__about">
         <h3 class="about__title" id="about_me"><span class="highlight">About Me</span></h3>
-        <p class="about__text">Hi! I'm a 23 y.o Junior frontend developer. 
+        <p class="about__text">Hi! I'm a 24 y.o Junior frontend developer. 
           I really enjoy the proccess of becaming a great web developer! 
           I like to study and learn something new.</p>
       </section>
@@ -86,7 +89,7 @@
         <h3 class="code__title" id="code__example"><span class="highlight">Code Example</span></h3>
         <pre><code class="code__example">String.prototype.toJadenCase = function () {
           str = this.toLowerCase().split(' ');
-          for (let i = 0; i < str.length; i++) {
+          for (let i = 0; i &lt;str.length; i++) {
            str[i] = str[i][0].toUpperCase() + str[i].substring(1)}
           
             return  str.join(' ')};</code></pre>
@@ -105,8 +108,7 @@
       </section>
     </div>
     </div>
-  </div>
-  </aside>
+    </aside>
 
 
 <footer class="footer">
@@ -125,7 +127,5 @@
     
 </footer>
 
-
-  
 </body>
 </html>

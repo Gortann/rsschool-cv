@@ -3,6 +3,7 @@ Contacts:
 Phone: _+7(912) 028-80-01_
 E-mail: _Bootylicioust@yandex.ru_
 Discord: _Mypka#4246_
+_About Me_
 Hi! I'm a 23 y.o Junior **frontend developer**. I really enjoy the proccess of becaming a great web developer! I like to study and learn something new.
 
 Key Strengths:
@@ -11,6 +12,7 @@ Key Strengths:
 3.Sociable
 4.Hardworking
 5.Perfectionist
+
 Skills:
 1.Basic Java Script
 2.Basic HTML
@@ -19,7 +21,7 @@ Skills:
 5.Basic Photoshop
 6.English:A2+
 
-
+_Code Example_
 ```String.prototype.toJadenCase = function () {
   str = this.toLowerCase().split(' ');
   for (let i = 0; i < str.length; i++) {
