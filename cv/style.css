@@ -200,3 +200,10 @@ padding: 30px;
 .footer__rs a img{
 height:60px;
 }
+
+@media (max-width:375px){
+
+  .container{
+    max-width: 250px;
+  }
+}
