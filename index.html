@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <title>CV</title>
+</head>
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+
+        <nav class="nav">
+          <ul class="nav__menu">
+            <li><a class="nav__link" href="#contacts">Contacts</a></li>
+            <li><a class="nav__link" href="#education">Education</a></li>
+            <li><a class="nav__link" href="#about_me">About Me</a></li>
+            <li><a class="nav__link" href="#key__strenghts">Strengths</a></li>
+            <li><a class="nav__link" href="#code__example">Code</a></li>
+            <li><a class="nav__link" href="#skills">Skills</a></li>
+          </ul>
+        </nav>
+
+        <div class="header__text">
+              <div class="text__info">
+                <h1 class="text__title"><span class="highlight">Personal Information</span></h1>
+                <h2 class="text__name">Goryainova Tatyana</h2>
+                <h3 class="text__job">Front-End Developer</h3>
+              </div>
+              <div class="contacts">
+                <h3 id="contacts"> <span class="highlight">Contacts</span></h3>
+                <ul>
+                  <li><a href="">
+                    <img src="img/telephone.svg" alt="Phone">+7(912) 028-80-01</a></li>
+                  <li><a href="">
+                    <img src="img/message.svg" alt="E-mail">Bootylicioust@yandex.ru</a></li>
+                  <li><a href="">
+                    <img src="img/discord.svg" alt="Discord">Mypka#4246</a></li>
+                </ul>
+              </div>
+                <div class="education__info">
+                    <h3 id="education"><span class="highlight">Education</span></h3>
+                      <ul>
+                        <li class="education">Udmurt State University: 'Social work'. Bachelor's degree</li>
+                      </ul>
+              </div>
+              
+        </div>
+          <div class="header__img">
+            <figure>
+              <img src="img/photo.jpg" alt="Photo of Goryainova Tatyana" >
+                 <figcaption>My photo</figcaption>
+          </figure>
+         </div>
+      </div>
+    </div>
+  </header>
+
+
+  <aside class="aside">
+    <div class="container">
+      <div class="sections">
+      <section class="section__about">
+        <h3 class="about__title" id="about_me"><span class="highlight">About Me</span></h3>
+        <p class="about__text">Hi! I'm a 24 y.o Junior frontend developer. 
+          I really enjoy the proccess of becaming a great web developer! 
+          I like to study and learn something new.</p>
+      </section>
+      <section class="section__key">
+        <h3 id="key__strenghts"><span class="highlight">Key Strengths</span></h3>
+        <ul class="key__strengths">
+          <li>Quick learner</li>
+          <li>Team playing</li>
+          <li>Sociable</li>
+          <li>Hardworking</li>
+          <li>Perfectionist</li>
+        </ul>
+      </section>
+      <section class="section__code">
+        <h3 class="code__title" id="code__example"><span class="highlight">Code Example</span></h3>
+        <pre><code class="code__example">String.prototype.toJadenCase = function () {
+          str = this.toLowerCase().split(' ');
+          for (let i = 0; i &lt;str.length; i++) {
+           str[i] = str[i][0].toUpperCase() + str[i].substring(1)}
+          
+            return  str.join(' ')};</code></pre>
+      </section>
+      <section class="section__skills">
+        <h3 id="skills"><span class="highlight">Skills</span></h3>
+        <ul class="skills__list">
+          <li>Basic Java Script</li>
+          <li>Basic HTML</li>
+          <li>Basic CSS</li>
+          <li>Basic Figma</li>
+          <li>Basic Photoshop</li>
+          <li>English:A2+</li>
+        </ul>
+        
+      </section>
+    </div>
+    </div>
+    </aside>
+
+
+<footer class="footer">
+    
+        <div class="footer__inner">
+          <div class="footer__github"><a href="https://github.com/Gortann">
+            <img src="img/Octocat.png" alt="GitHub"></a>
+          </div>
+
+          <div class="footer__year"><h6>2021</h6></div>
+
+          <div class="footer__rs"><a href="https://rs.school/js/">
+            <img src="img/rs_school.svg" alt="RS SCHOOL"></a>
+          </div>
+        </div>
+    
+</footer>
+
+</body>
+</html>
